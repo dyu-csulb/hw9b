@@ -46,7 +46,7 @@ function myObj() {
   
   
   function callApi() {
-    const url = 'https://davidyu-hw9.herokuapp.com/api/countries';
+    const url = 'https://davidyu-hw9b.herokuapp.com/api/countries';
     fetch(url, {
       method: 'POST', 
       headers: {

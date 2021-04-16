@@ -38,7 +38,7 @@ function clear() {
   
   
   function callApi() {
-    const url = 'https://davidyu-hw9.herokuapp.com/api/articles';
+    const url = 'https://davidyu-hw9b.herokuapp.com/api/articles';
     fetch(url, {
       method: 'POST', 
       headers: {

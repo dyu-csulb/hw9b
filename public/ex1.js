@@ -45,7 +45,7 @@ function postData() {
         promotion: document.getElementById("chkPromotion").checked,
         location: document.getElementById("cboLocation").value
       }
-    fetch("https://davidyu-hw9.herokuapp.com/postdata", {
+    fetch("https://davidyu-hw9b.herokuapp.com/postdata", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ function postData() {
 
 function getData() {
     let myObj = []
-    const url = 'https://davidyu-hw9.herokuapp.com/getdata' 
+    const url = 'https://davidyu-hw9b.herokuapp.com/getdata' 
   
     fetch(url)
     .then(response => response.json())

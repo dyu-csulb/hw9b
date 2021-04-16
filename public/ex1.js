@@ -45,7 +45,7 @@ function postData() {
         promotion: document.getElementById("chkPromotion").checked,
         location: document.getElementById("cboLocation").value
       }
-    fetch("http://localhost:5000/postdata", {
+    fetch("https://davidyu-hw9.herokuapp.com/postdata", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
@@ -63,7 +63,7 @@ function postData() {
 
 function getData() {
     let myObj = []
-    const url = 'http://localhost:5000/getdata' 
+    const url = 'https://davidyu-hw9.herokuapp.com/getdata' 
   
     fetch(url)
     .then(response => response.json())

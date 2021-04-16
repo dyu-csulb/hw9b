@@ -46,7 +46,7 @@ function myObj() {
   
   
   function callApi() {
-    const url = 'http://localhost:5000/api/countries';
+    const url = 'https://davidyu-hw9.herokuapp.com/api/countries';
     fetch(url, {
       method: 'POST', 
       headers: {
